@@ -1,11 +1,7 @@
 import React from 'react';
 
 const Todo = props => {
-    render() {
-    const styles = this.state.clicked ? { textDecoration: 'line-through' } : { textDecoration: 'none' };
-        }
     return (
-        
       <div className={`todo${props.todo.completed ? ' completed' : ''}`}>
         <p>{props.todo.task}</p>
       </div>
